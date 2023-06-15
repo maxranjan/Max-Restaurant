@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .menu {
+      float: left;
+      width: 20%;
+      text-align: center;
+    }
+
+    .menu a {
+      background-color: #8fa3e9;
+      padding: 12px;
+      margin-top: 7px;
+      display: flex;
+      width: 100%;
+      color: black;
+
+    }
+
+    .main p1 {
+      font-size: medium;
+    }
+
+    .main {
+      float: left;
+      width: 60%;
+      padding: 0 20px;
+      font-size: large;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .main img {
+      padding: 10px;
+      width: 45%;
+      height: 100px;
+      float: auto;
+      /* padding-left: 20px; */
+      /* border-radius: 15%; */
+      max-width: fit-content;
+      max-height: fit-content;
+      /* margin: auto; */
+    }
+
+    .right {
+      background-color: #e5e5e5;
+      float: left;
+      width: 20%;
+      padding: 15px;
+      margin-top: 7px;
+      text-align: center;
+    }
+
+    @media only screen and (max-width: 620px) {
+
+      /* For mobile phones: */
+      .dropdown,
+      .menu,
+      .main,
+      .right {
+        width: 100%;
+      }
+    }
+
+
+    /* here  */
+    .dropbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px;
+      font-size: 15px;
+      border: none;
+
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.938);
+      z-index: 1;
+
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+
+    }
+
+    .dropdown-content a:hover {
+      background-color: #1451ea;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+
+    /* here  */
+  </style>
+</head>
+
+<body style="font-family:Verdana;color:#0e0d0dee;">
+
+  <div
+  
+    style="background-color:#d0f3ecf1;padding:15px;text-align:center;font-family: Georgia, 'Times New Roman', Times, serif; font-size:large;">
+    <p1> This is not a original restaurant website.This website is under development.<br> Thankyou For Visit Us <br></p1>
+    <br>
+    <img class="img-1" src="img/cook4.jpg" alt=" NA" style=" height: 100px; width: 30%; border-radius: 10px;">
+    <h1>The Max Restaurant & Hotel </h1>
+    <P1> National Highway 22, Turki, Muzaffarpur, Bihar </P1>
+  </div>
+
+  <div style="overflow:auto">
+    <div class="menu">
+      <a href="#">HOME</a>
+      <a href="#">SERVICES</a>
+
+      <br>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <div style=" color: black; font-family:monospace; font-size:20px;">--SPECIAL DISHES--
+        </button>
+
+        <div class="dropdown-content">
+          <!-- <a href="#">Chiken Handi</a>
+                  <a href="#">Chiken Do Pyaza</a>
+                  <a href="#">Chiken Kadhai</a> -->
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <div
+            style=" color: yellow; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            .............STARTER............
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Panner Pakora</a>
+          <a href="#">Baby Corn</a>
+          <a href="#">Aalu Pakora </a>
+          <a href="#">Dhokla</a>
+          <a href="#">Samosa</a>
+          <a href="#">Rawa Dhokla</a>
+          <a href="#">Samosa Chatt</a>
+          <a href="#">Dahi Vada</a>
+          <a href="#">Patato Tikki</a>
+          <a href="#">Tomato Soup</a>
+          <a href="#">Veg Kofta </a>
+          <a href="#">Momos Recipe</a>
+          <a href="#">Idli Fri</a>
+          <a href="#">Veg Manchurian</a>
+        </div>
+      </div>
+      <!-- third list  -->
+      <br>
+      <br>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <div
+            style=" color: yellow ;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            ............NON-VEG............
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Chiken Mashala</a>
+          <a href="#">Chiken Do Pyaza</a>
+          <a href="#">Chiken Kadhai</a>
+          <a href="#">Chiken 65</a>
+          <a href="#">Chiken Chilli</a>
+          <a href="#">Chiken Dehati</a>
+          <a href="#">Chiken Handi</a>
+          <a href="#">Mutton Kadhai</a>
+          <a href="#">Mutton Mahala</a>
+          <a href="#">Mutton handi</a>
+          <a href="#">Mutton Dehati</a>
+          <a href="#">Mutton Curry</a>
+          <a href="#">Tandoori Chiken</a>
+          <a href="#">Biryani</a>
+          <a href="#">Mutton Marg</a>
+          <a href="#">Mutton Curry</a>
+        </div>
+      </div>
+      <!-- fourth list  -->
+
+      <br>
+      <br>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <div
+            style=" color: yellow ; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            ...............VEG...............
+        </button>
+        <div class="dropdown-content">
+          <a href="#">PannerMashala <br> F-240/H-150</a>
+          <a href="#">Paneer Do Pyaza<br> F-240/H-150</a>
+          <a href="#">Paneer Tikka<br> F-220/H-120</a>
+          <a href="#">Shahi Paneer<br> F-260/H-180</a>
+          <a href="#">Kaju Paneer<br> F-300/H-150</a>
+          <a href="#">Palak Paneer<br> F-200/H-110</a>
+          <a href="#">Mix-Veg Curry<br> F-240/H-150</a>
+          <a href="#">Dal Fry<br> F-100/H-50</a>
+          <a href="#">Aloo Mutter<br> F-110/H-600</a>
+          <a href="#">Aloo Mashala<br> F-110/H-60 </a>
+          <a href="#">Paneer 65<br> F-260/H-150</a>
+          <a href="#">Gobi 65<br> F-100/H-600</a>
+          <a href="#">Jeera Rice <br> F-90/H-45</a>
+          <a href="#">Veg Pulao<br> F-120/H-70</a>
+          <a href="#">Plane Rice<br> F-80/H-40</a>
+        </div>
+      </div>
+
+      <!-- fifth list  -->
+      <br>
+      <br>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <div
+            style=" color: yellow;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            .............SALAID..............
+        </button>
+        <div class="dropdown-content">
+          <a href="#"> Onion Salaid - 50 </a>
+          <a href="#"> Normal Salaid - 50 </a>
+          <a href="#">Tomato Salaid - 50 </a>
+          <a href="#">Radis Salaid - 50 </a>
+        </div>
+      </div>
+      <!-- sixth list -->
+
+      <br>
+      <br>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <div
+            style=" color: yellow ;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            .............DRINKS..............
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Normal Water - 20 </a>
+          <a href="#">Chilled Water - 30 </a>
+          <a href="#">Red Bull - 120 </a>
+          <a href="#">Sprite - 40 </a>
+          <a href="#">Coke - 40 </a>
+          <a href="#">Mazza - 40 </a>
+          <a href="#">String - 20 </a>
+          <a href="#">Pepsi - 40 </a>
+          <a href="#">Thums Up - 40 </a>
+          <a href="#">Fanta - 40 </a>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      
+      <a href="#" style="font-family: 'Times New Roman', Times, serif; font-size: 25px;">Contact</a>
+      <br>
+      <a href="#" style="font-family: 'Times New Roman', Times, serif; font-size: 25px;">Rate me</a>
+      <br>
+      <a href="#" style="font-family: 'Times New Roman', Times, serif; font-size: 25px;">Address</a>
+      <br>
+      <a href="#" style="font-family: 'Times New Roman', Times, serif; font-size: 25px;">Term & Condition</a>
+      <br>
+      <a href="#" style="font-family: 'Times New Roman', Times, serif; font-size: 25px;">Privacy & Policy</a>
+    </div>
+    <div class="main">
+
+      <h2>Restaurant Services & Features </h2>
+      <p> 🔘Best Quality <br><br>
+        🔘Tasty Foods <br><br>
+        🔘Better Services<br><br>
+        🔘Low Price<br><br>
+        🔘Clean and Clear Area<br><br>
+        🔘Pleasent Places<br><br>
+        🔘Fast Delivery<br><br>
+        🔘Fully Sanitized <br><br>
+        🔘Good Behaviours <br><br>
+        🔘Honest Waiters <br><br>
+        <img class="img-1" src="img/3.jpeg" alt=" NA">
+        <img class="img-1" src="img/abc1.jpg" alt=" NA">
+        <img class="img-1" src="img/1.jpeg" alt=" NA">
+        <img class="img-1" src="img/2.jpeg" alt=" NA">
+      </p>
+
+      <br>
+      <br>
+      <br>
+      <h1> Thought of the Day</h1>
+
+      <p1> 1. "Came from a plant, eat it; was made in a plant, don't." – Michael Pollan.
+        <br>
+        <br>
+        2. “It is health that is real wealth and not pieces of gold and silver.” – Mahatma Gandhi.
+        <br>
+        <br>
+        3. “When diet is wrong, medicine is of no use. When diet is correct, medicine is of no need.” – Ayurvedic
+        Proverb.
+        <br>
+        <br>
+        4. “If you keep good food in your fridge, you will eat good food.” – Errick McAdams.
+        <br>
+        <br>
+        5. “Sorry, there’s no magic bullet. You gotta eat healthy and live healthy to be healthy and look healthy. End
+        of story.” – Morgan.
+        <br>
+      </p1>
+
+      <img class="img-1" src="img/cook1.jpg" alt=" NA" style="width: 100%; height: 90%; ">
+    </div>
+
+    <div class="right">
+      <h2>About</h2>
+      <p>This website is not a real restaurant website. This website is used for as a project Purpose
+        and this site is under development by <a href="https://instagram.com/max__ranjan" target="_blank"> Max Ranjan
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <a href="https://instagram.com/max__ranjan" target="_blank"> Instagram</a><br> <br>
+          <a href="https://www.facebook.com/nicky.ranjan.77">Facebook </a><br> <br>
+          <a href="http://youtube.com\@max__ranjan" target="=_blank"> Youtube </a><br>
+          <br>
+          <br>
+          Thankyou for Visit Us
+          <br>
+
+      </p>
+    </div>
+  </div>
+
+  <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright Max__ranjan</div>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   width: 100% ;
+   height: 70px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.name{
+    flex: 1 0 130px;
+}
+.email{
+    flex: 1 0 130px;
+}
+button{
+    flex: 1 0 40px;
+    width: 50;
+    height: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+ font-size: large;
+}
+.container{
+
+    padding: 150px;
+    
+    font-size: x-large;
+}
+input{
+    border-radius: 10px;
+    text-emphasis: none;
+    text-align: center;
+    width: 25%;
+    height: 30px;
+    font-size: medium;
+}
+
