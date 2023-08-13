@@ -43,3 +43,7 @@ input{
 .menu{
     text-align: center;
 }
+.marquee {
+    display: inline-block;
+    width: -webkit-fill-available
+}
